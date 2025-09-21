@@ -18,11 +18,9 @@ Backend for MediAssist Disease Prediction application built with Node.js, Expres
 
 ---
 
-## Environment Variables
-Create a `.env` file:
 
 PORT=5000
-MONGO_URI=<Your MongoDB Atlas connection string>
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/mediassist?retryWrites=true&w=majority
 ---
 
 ## Install Dependencies
